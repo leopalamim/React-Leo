@@ -1,0 +1,34 @@
+.hero {
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.menu {
+    display: flex;
+}
+
+.frontpage {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-right: var(--outer-margin, 5rem);
+    padding-left: var(--outer-margin, 5rem);
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        align-items: flex-start;
+    }
+    
+    .menu {
+        flex-direction: column;
+    }
+}

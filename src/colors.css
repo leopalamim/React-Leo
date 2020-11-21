@@ -1,0 +1,54 @@
+:root {
+    --gray: #2C3A47;
+    --cream: #F8EFBA;
+    --yellow: #EAB543;
+}
+
+body {
+    background: var(--gray);
+}
+
+.sectioncream {
+    background: var(--cream);
+}
+
+.sectionyellow {
+    background: var(--yellow);
+}
+
+h1 {
+    color: var(--cream);
+}
+
+h2 {
+    color: var(--yellow);
+}
+
+h3 {
+    color: var(--yellow);
+}
+
+p {
+    color: var(--cream);
+}
+
+em {
+    color: var(--yellow);
+}
+
+.cream {
+    color: var(--cream);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.navlink {
+    color: var(--yellow);
+}
+
+footer {
+    background: var(--yellow);
+    color: var(--cream);
+}
